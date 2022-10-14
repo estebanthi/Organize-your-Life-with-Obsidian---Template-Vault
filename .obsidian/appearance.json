@@ -1,5 +1,11 @@
 {
   "cssTheme": "Minimal",
   "translucency": true,
-  "baseFontSize": 13
+  "baseFontSize": 13,
+  "accentColor": "#2d65b4",
+  "enabledCssSnippets": [
+    "banner",
+    "supercharged-links-gen"
+  ],
+  "theme": "obsidian"
 }

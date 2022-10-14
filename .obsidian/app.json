@@ -4,5 +4,6 @@
   "newFileLocation": "folder",
   "showUnsupportedFiles": true,
   "attachmentFolderPath": "002 Attachments/Pasted",
-  "newFileFolderPath": "000 Inbox"
+  "newFileFolderPath": "000 Inbox",
+  "showInlineTitle": false
 }
