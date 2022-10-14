@@ -1,0 +1,705 @@
+{
+  "choices": [
+    {
+      "id": "7c9f8eee-3aaa-4551-a768-5bb3027e2ebe",
+      "name": "🔥 Actions",
+      "type": "Multi",
+      "command": true,
+      "choices": [
+        {
+          "id": "5ba91262-e0a7-42b7-9a15-2363a7c05c27",
+          "name": "✅ Task to Inbox",
+          "type": "Capture",
+          "command": true,
+          "appendLink": false,
+          "captureTo": "006 Action/1 Tasks/{{DATE:YYYY-  \\W\\k w}} Tasks",
+          "captureToActiveFile": false,
+          "createFileIfItDoesntExist": {
+            "enabled": true,
+            "createWithTemplate": false,
+            "template": ""
+          },
+          "format": {
+            "enabled": true,
+            "format": "{{VALUE: Task Name}} {{VALUE:⏫,🔼, ,🔽}} {{VDATE: Due Date, 📅 YYYY-MM-DD}}"
+          },
+          "insertAfter": {
+            "enabled": false,
+            "after": "",
+            "insertAtEnd": false,
+            "createIfNotFound": false,
+            "createIfNotFoundLocation": "top"
+          },
+          "prepend": false,
+          "task": true,
+          "openFileInNewTab": {
+            "enabled": false,
+            "direction": "vertical",
+            "focus": true
+          },
+          "openFile": false,
+          "openFileInMode": "default"
+        },
+        {
+          "id": "fd91dd0f-0b0f-4e90-b8df-2c0bee441867",
+          "name": "✅ Task here",
+          "type": "Macro",
+          "command": true,
+          "macroId": "ffc57cd1-d514-493f-aceb-4fd91c3b938f"
+        },
+        {
+          "id": "c55268f3-36ce-49ac-91c5-3ba0f8cf359e",
+          "name": "⚒️ Project",
+          "type": "Macro",
+          "command": false,
+          "macroId": "e778bf9a-4860-4cb4-a656-ef32e348b05f"
+        },
+        {
+          "id": "dc3c80a4-6d6f-4393-8158-db2d04391494",
+          "name": "🎯 Goal",
+          "type": "Macro",
+          "command": false,
+          "macroId": "eee16bea-f7fb-4ce1-9158-df7f72725651"
+        },
+        {
+          "id": "8fee7924-82b6-4af1-a307-08edda7a1bb4",
+          "name": "💎 Value",
+          "type": "Macro",
+          "command": false,
+          "macroId": "904ad0ee-4785-4bce-baf8-d630416f6a64"
+        },
+        {
+          "id": "99fcb1df-57a0-4c74-9c92-03b628eb47cb",
+          "name": "✅ Task Filter",
+          "type": "Template",
+          "command": false,
+          "templatePath": "001 Templates/0061 Tasks/Tasks Filter",
+          "fileNameFormat": {
+            "enabled": true,
+            "format": "{{VALUE:File Name}}"
+          },
+          "folder": {
+            "enabled": true,
+            "folders": [
+              "006 Action/1 Tasks/_Views"
+            ],
+            "chooseWhenCreatingNote": false,
+            "createInSameFolderAsActiveFile": false
+          },
+          "appendLink": false,
+          "incrementFileName": false,
+          "openFileInNewTab": {
+            "enabled": false,
+            "direction": "vertical",
+            "focus": true
+          },
+          "openFile": true,
+          "openFileInMode": "default"
+        }
+      ],
+      "collapsed": true
+    },
+    {
+      "id": "88a3a215-0b83-458d-9c02-01c100db0a9b",
+      "name": "🧠 Zettlekasten",
+      "type": "Multi",
+      "command": false,
+      "choices": [
+        {
+          "id": "cef521fa-01cf-488f-98fc-33e0e2c33bf7",
+          "name": "💭 Idea",
+          "type": "Template",
+          "command": false,
+          "templatePath": "001 Templates/100 Zettelkasten/Notes/0 Idea",
+          "fileNameFormat": {
+            "enabled": true,
+            "format": "{{VALUE:File Name}}"
+          },
+          "folder": {
+            "enabled": true,
+            "folders": [],
+            "chooseWhenCreatingNote": false,
+            "createInSameFolderAsActiveFile": false
+          },
+          "appendLink": false,
+          "incrementFileName": false,
+          "openFileInNewTab": {
+            "enabled": false,
+            "direction": "vertical",
+            "focus": true
+          },
+          "openFile": true,
+          "openFileInMode": "default"
+        },
+        {
+          "id": "35e66db0-e36d-45bf-9470-1d8964723e56",
+          "name": "🌱 Seed",
+          "type": "Template",
+          "command": true,
+          "templatePath": "001 Templates/100 Zettelkasten/Notes/1 Seed",
+          "fileNameFormat": {
+            "enabled": true,
+            "format": "{{VALUE:File Name}}"
+          },
+          "folder": {
+            "enabled": true,
+            "folders": [
+              "100 Zettelkasten/110 Zettlekasten Inbox"
+            ],
+            "chooseWhenCreatingNote": false,
+            "createInSameFolderAsActiveFile": false
+          },
+          "appendLink": false,
+          "incrementFileName": false,
+          "openFileInNewTab": {
+            "enabled": false,
+            "direction": "vertical",
+            "focus": true
+          },
+          "openFile": true,
+          "openFileInMode": "default"
+        },
+        {
+          "id": "1cc64154-4bdd-4151-a572-bac2a5eefe62",
+          "name": "🌿 Fern",
+          "type": "Template",
+          "command": false,
+          "templatePath": "001 Templates/100 Zettelkasten/Notes/2 Fern",
+          "fileNameFormat": {
+            "enabled": true,
+            "format": "{{VALUE:File Name}}"
+          },
+          "folder": {
+            "enabled": true,
+            "folders": [
+              "100 Zettelkasten/110 Zettlekasten Inbox"
+            ],
+            "chooseWhenCreatingNote": false,
+            "createInSameFolderAsActiveFile": false
+          },
+          "appendLink": false,
+          "incrementFileName": false,
+          "openFileInNewTab": {
+            "enabled": false,
+            "direction": "vertical",
+            "focus": true
+          },
+          "openFile": true,
+          "openFileInMode": "default"
+        },
+        {
+          "id": "a59a7a4c-dd07-45c0-8270-c89aa4259ab7",
+          "name": "🌞 Incubating",
+          "type": "Template",
+          "command": false,
+          "templatePath": "001 Templates/100 Zettelkasten/Notes/3 Incubating",
+          "fileNameFormat": {
+            "enabled": true,
+            "format": "{{VALUE:File Name}}"
+          },
+          "folder": {
+            "enabled": true,
+            "folders": [],
+            "chooseWhenCreatingNote": false,
+            "createInSameFolderAsActiveFile": false
+          },
+          "appendLink": false,
+          "incrementFileName": false,
+          "openFileInNewTab": {
+            "enabled": false,
+            "direction": "vertical",
+            "focus": true
+          },
+          "openFile": true,
+          "openFileInMode": "default"
+        },
+        {
+          "id": "92b438ac-0d48-4259-8f2d-610c9354748a",
+          "name": "🌳 Evergreen",
+          "type": "Template",
+          "command": false,
+          "templatePath": "001 Templates/100 Zettelkasten/Notes/4 Evergreen",
+          "fileNameFormat": {
+            "enabled": true,
+            "format": "{{VALUE:File Name}}"
+          },
+          "folder": {
+            "enabled": true,
+            "folders": [
+              "100 Zettelkasten/110 Zettlekasten Inbox"
+            ],
+            "chooseWhenCreatingNote": false,
+            "createInSameFolderAsActiveFile": false
+          },
+          "appendLink": false,
+          "incrementFileName": false,
+          "openFileInNewTab": {
+            "enabled": false,
+            "direction": "vertical",
+            "focus": true
+          },
+          "openFile": true,
+          "openFileInMode": "default"
+        }
+      ],
+      "collapsed": true
+    },
+    {
+      "id": "2be17c83-b385-4402-912e-cd1c8fcb4182",
+      "name": "👀 Watch List",
+      "type": "Multi",
+      "command": false,
+      "choices": [
+        {
+          "id": "51c8dc5f-ed8a-4dc3-a9ff-62c5da9df3fd",
+          "name": "📗 Book",
+          "type": "Template",
+          "command": false,
+          "templatePath": "001 Templates/200 Watch List/_210 Book",
+          "fileNameFormat": {
+            "enabled": true,
+            "format": "{{VALUE: File Name}}"
+          },
+          "folder": {
+            "enabled": true,
+            "folders": [
+              "200 Watch List/210 Books"
+            ],
+            "chooseWhenCreatingNote": false,
+            "createInSameFolderAsActiveFile": false
+          },
+          "appendLink": false,
+          "incrementFileName": false,
+          "openFileInNewTab": {
+            "enabled": false,
+            "direction": "vertical",
+            "focus": true
+          },
+          "openFile": true,
+          "openFileInMode": "default"
+        },
+        {
+          "id": "e5957376-82af-40c8-bd37-823ab42577a4",
+          "name": "📄 Article",
+          "type": "Template",
+          "command": false,
+          "templatePath": "001 Templates/200 Watch List/220 Article",
+          "fileNameFormat": {
+            "enabled": true,
+            "format": "{{VALUE: File Name}}"
+          },
+          "folder": {
+            "enabled": true,
+            "folders": [],
+            "chooseWhenCreatingNote": false,
+            "createInSameFolderAsActiveFile": false
+          },
+          "appendLink": false,
+          "incrementFileName": false,
+          "openFileInNewTab": {
+            "enabled": false,
+            "direction": "vertical",
+            "focus": true
+          },
+          "openFile": true,
+          "openFileInMode": "default"
+        }
+      ],
+      "collapsed": true
+    },
+    {
+      "id": "8831bfb1-9233-4404-aade-0bc7dac3e892",
+      "name": "🖇️ References",
+      "type": "Multi",
+      "command": false,
+      "choices": [
+        {
+          "id": "74fba5b6-5899-467e-94b5-aa72541aeb54",
+          "name": "📗 Book",
+          "type": "Template",
+          "command": false,
+          "templatePath": "001 Templates/300 References/310 Book",
+          "fileNameFormat": {
+            "enabled": true,
+            "format": "{{VALUE: File Name}}"
+          },
+          "folder": {
+            "enabled": true,
+            "folders": [
+              "300 References/310 Books"
+            ],
+            "chooseWhenCreatingNote": false,
+            "createInSameFolderAsActiveFile": false
+          },
+          "appendLink": false,
+          "incrementFileName": false,
+          "openFileInNewTab": {
+            "enabled": false,
+            "direction": "vertical",
+            "focus": true
+          },
+          "openFile": true,
+          "openFileInMode": "default"
+        },
+        {
+          "id": "ca4adf2e-e3d2-411e-b5c1-17ff12f9f643",
+          "name": "📄 Article",
+          "type": "Template",
+          "command": false,
+          "templatePath": "001 Templates/300 References/320 Article",
+          "fileNameFormat": {
+            "enabled": true,
+            "format": "{{VALUE: File Name}}"
+          },
+          "folder": {
+            "enabled": true,
+            "folders": [
+              "300 References/320 Articles"
+            ],
+            "chooseWhenCreatingNote": false,
+            "createInSameFolderAsActiveFile": false
+          },
+          "appendLink": false,
+          "incrementFileName": false,
+          "openFileInNewTab": {
+            "enabled": false,
+            "direction": "vertical",
+            "focus": true
+          },
+          "openFile": true,
+          "openFileInMode": "default"
+        }
+      ],
+      "collapsed": true
+    }
+  ],
+  "macros": [
+    {
+      "name": "➕ Task here",
+      "id": "ffc57cd1-d514-493f-aceb-4fd91c3b938f",
+      "commands": [
+        {
+          "name": "Tasks: Create or edit task",
+          "type": "Obsidian",
+          "id": "ef46efc5-93bc-4ccb-a9b8-52698f9254cb",
+          "commandId": "obsidian-tasks-plugin:edit-task"
+        }
+      ],
+      "runOnStartup": false
+    },
+    {
+      "name": "➕ Project",
+      "id": "e778bf9a-4860-4cb4-a656-ef32e348b05f",
+      "commands": [
+        {
+          "name": "New Project",
+          "type": "NestedChoice",
+          "id": "42afe4ac-0c90-4344-a94f-714f3e92ba89",
+          "choice": {
+            "id": "74d448a7-14bf-4789-a8c9-93fc48113604",
+            "name": "New Project",
+            "type": "Template",
+            "command": false,
+            "templatePath": "001 Templates/0062 Projects/Project",
+            "fileNameFormat": {
+              "enabled": true,
+              "format": "{{VALUE: Project Name}}"
+            },
+            "folder": {
+              "enabled": true,
+              "folders": [
+                "006 Action/2 Projects"
+              ],
+              "chooseWhenCreatingNote": false,
+              "createInSameFolderAsActiveFile": false
+            },
+            "appendLink": false,
+            "incrementFileName": true,
+            "openFileInNewTab": {
+              "enabled": false,
+              "direction": "vertical",
+              "focus": true
+            },
+            "openFile": true,
+            "openFileInMode": "default"
+          }
+        },
+        {
+          "name": "Metadata",
+          "type": "NestedChoice",
+          "id": "5670925c-d7a9-4b3e-bd3a-9ae6af284bde",
+          "choice": {
+            "id": "468f6d11-159b-4b6f-9ec3-13ab3508ec81",
+            "name": "Metadata",
+            "type": "Capture",
+            "command": false,
+            "appendLink": false,
+            "captureTo": "",
+            "captureToActiveFile": true,
+            "createFileIfItDoesntExist": {
+              "enabled": false,
+              "createWithTemplate": false,
+              "template": ""
+            },
+            "format": {
+              "enabled": true,
+              "format": "[Goal :: {{VALUE: Link to related Goal}}]  ⠀•⠀ [Deadline :: {{VDATE: Deadline(YYYY-MM-DD or Relative), 📅 YYYY-MM-DD }}] ⠀•⠀ [Complete :: ❌]"
+            },
+            "insertAfter": {
+              "enabled": false,
+              "after": "",
+              "insertAtEnd": false,
+              "createIfNotFound": false,
+              "createIfNotFoundLocation": "top"
+            },
+            "prepend": true,
+            "task": false,
+            "openFileInNewTab": {
+              "enabled": false,
+              "direction": "vertical",
+              "focus": true
+            },
+            "openFile": false,
+            "openFileInMode": "default"
+          }
+        },
+        {
+          "name": "Target",
+          "type": "NestedChoice",
+          "id": "3066742c-db83-47d2-92f4-0d74d713ec34",
+          "choice": {
+            "id": "28478b81-212f-4dcb-b2e9-caf1851026bc",
+            "name": "Target",
+            "type": "Capture",
+            "command": false,
+            "appendLink": false,
+            "captureTo": "",
+            "captureToActiveFile": true,
+            "createFileIfItDoesntExist": {
+              "enabled": false,
+              "createWithTemplate": false,
+              "template": ""
+            },
+            "format": {
+              "enabled": true,
+              "format": "[Target :: {{VALUE: Target / Completion Criterea}}]\n"
+            },
+            "insertAfter": {
+              "enabled": false,
+              "after": "",
+              "insertAtEnd": false,
+              "createIfNotFound": false,
+              "createIfNotFoundLocation": "top"
+            },
+            "prepend": true,
+            "task": false,
+            "openFileInNewTab": {
+              "enabled": false,
+              "direction": "vertical",
+              "focus": true
+            },
+            "openFile": false,
+            "openFileInMode": "default"
+          }
+        },
+        {
+          "name": "Fill Rest",
+          "type": "NestedChoice",
+          "id": "b7603836-a4f5-49a0-a918-3378de396b6e",
+          "choice": {
+            "id": "8de8feb9-b521-43cd-9c78-9dcdc465f27a",
+            "name": "Fill Rest",
+            "type": "Capture",
+            "command": false,
+            "appendLink": false,
+            "captureTo": "",
+            "captureToActiveFile": true,
+            "createFileIfItDoesntExist": {
+              "enabled": false,
+              "createWithTemplate": false,
+              "template": ""
+            },
+            "format": {
+              "enabled": true,
+              "format": "\n---\n### Tasks\n\n"
+            },
+            "insertAfter": {
+              "enabled": false,
+              "after": "",
+              "insertAtEnd": false,
+              "createIfNotFound": false,
+              "createIfNotFoundLocation": "top"
+            },
+            "prepend": true,
+            "task": false,
+            "openFileInNewTab": {
+              "enabled": false,
+              "direction": "vertical",
+              "focus": true
+            },
+            "openFile": false,
+            "openFileInMode": "default"
+          }
+        }
+      ],
+      "runOnStartup": false
+    },
+    {
+      "name": "➕ Goal",
+      "id": "eee16bea-f7fb-4ce1-9158-df7f72725651",
+      "commands": [
+        {
+          "name": "Create Goal Template",
+          "type": "NestedChoice",
+          "id": "c7f33d04-0ffb-4c91-911e-9d96f93902a0",
+          "choice": {
+            "id": "93563e43-1a57-41d6-ab50-2297ed0ffb9e",
+            "name": "Create Goal Template",
+            "type": "Template",
+            "command": false,
+            "templatePath": "001 Templates/0063 Goals/Goal",
+            "fileNameFormat": {
+              "enabled": true,
+              "format": "{{VALUE: Goal Name}}"
+            },
+            "folder": {
+              "enabled": true,
+              "folders": [
+                "006 Action/3 Goals"
+              ],
+              "chooseWhenCreatingNote": false,
+              "createInSameFolderAsActiveFile": false
+            },
+            "appendLink": false,
+            "incrementFileName": false,
+            "openFileInNewTab": {
+              "enabled": false,
+              "direction": "vertical",
+              "focus": true
+            },
+            "openFile": true,
+            "openFileInMode": "default"
+          }
+        },
+        {
+          "name": "Metadata",
+          "type": "NestedChoice",
+          "id": "597fd09c-bd69-4c1f-8ee0-5a1d94142d93",
+          "choice": {
+            "id": "04815c51-9742-46b4-973d-ba615f2b6a2d",
+            "name": "Metadata",
+            "type": "Capture",
+            "command": false,
+            "appendLink": false,
+            "captureTo": "",
+            "captureToActiveFile": true,
+            "createFileIfItDoesntExist": {
+              "enabled": false,
+              "createWithTemplate": false,
+              "template": ""
+            },
+            "format": {
+              "enabled": true,
+              "format": "[Why :: {{VALUE: Define your why}}]  ⠀•⠀ [Value:: {{VALUE: Link to Value}}]  ⠀•⠀ [Deadline :: {{VDATE:Deadline, 📅 YYYY-MM-DD}}]  ⠀•⠀ [Complete :: ❌]\n\n---\n## Related Projects\n```dataview\nTABLE\n\ttarget AS \"Target\",\n\tgoal AS \"Goal\",\n\tdeadline as \"Deadline\",\n\tcomplete as \"Complete\"\nFROM \"02 Action/02 Projects\"\nWHERE goal = [[Create Cool Stuff]]\nSORT complete DESCENDING\n```"
+            },
+            "insertAfter": {
+              "enabled": false,
+              "after": "",
+              "insertAtEnd": false,
+              "createIfNotFound": false,
+              "createIfNotFoundLocation": "top"
+            },
+            "prepend": true,
+            "task": false,
+            "openFileInNewTab": {
+              "enabled": false,
+              "direction": "vertical",
+              "focus": true
+            },
+            "openFile": false,
+            "openFileInMode": "default"
+          }
+        }
+      ],
+      "runOnStartup": false
+    },
+    {
+      "name": "✖️ Value",
+      "id": "5cc15901-8894-458d-8af4-2048dc8cbf20",
+      "commands": [
+        {
+          "name": "Value Template",
+          "type": "NestedChoice",
+          "id": "b39fb7d2-cc08-4d81-9480-91139d0550e2",
+          "choice": {
+            "id": "091c53f7-c935-4bec-8ae6-263569a5efdc",
+            "name": "Value Template",
+            "type": "Template",
+            "command": false,
+            "templatePath": "001 Templates/0064 Values/Value",
+            "fileNameFormat": {
+              "enabled": true,
+              "format": "{{VALUE: Value Name}}"
+            },
+            "folder": {
+              "enabled": true,
+              "folders": [],
+              "chooseWhenCreatingNote": false,
+              "createInSameFolderAsActiveFile": false
+            },
+            "appendLink": false,
+            "incrementFileName": false,
+            "openFileInNewTab": {
+              "enabled": false,
+              "direction": "vertical",
+              "focus": true
+            },
+            "openFile": true,
+            "openFileInMode": "default"
+          }
+        },
+        {
+          "name": "Why",
+          "type": "NestedChoice",
+          "id": "5f0088f5-38cd-4810-bcff-a46bba373206",
+          "choice": {
+            "id": "59822826-d528-4465-998e-3bd6118b91bd",
+            "name": "Why",
+            "type": "Capture",
+            "command": false,
+            "appendLink": false,
+            "captureTo": "",
+            "captureToActiveFile": true,
+            "createFileIfItDoesntExist": {
+              "enabled": false,
+              "createWithTemplate": false,
+              "template": ""
+            },
+            "format": {
+              "enabled": true,
+              "format": "[Why :: {{VALUE: Your Why}}]"
+            },
+            "insertAfter": {
+              "enabled": false,
+              "after": "",
+              "insertAtEnd": false,
+              "createIfNotFound": false,
+              "createIfNotFoundLocation": "top"
+            },
+            "prepend": true,
+            "task": false,
+            "openFileInNewTab": {
+              "enabled": false,
+              "direction": "vertical",
+              "focus": true
+            },
+            "openFile": false,
+            "openFileInMode": "default"
+          }
+        }
+      ],
+      "runOnStartup": false
+    }
+  ],
+  "inputPrompt": "single-line"
+}

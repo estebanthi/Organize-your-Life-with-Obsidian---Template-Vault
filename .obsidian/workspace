@@ -1,0 +1,156 @@
+{
+  "main": {
+    "id": "5eaae3c6fe2063dd",
+    "type": "split",
+    "children": [
+      {
+        "id": "5ca1f637702e31dc",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "006 Action/1 Tasks/_Views/Upcoming.md",
+            "mode": "source",
+            "source": false
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "7f7eae6046e773f6",
+    "type": "split",
+    "children": [
+      {
+        "id": "8c26ba1fbcad6487",
+        "type": "tabs",
+        "dimension": 61.64596273291926,
+        "children": [
+          {
+            "id": "6f4f3da87bc90ed4",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "d9c36b80d0929125",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "7abe4ab2d7d48c03",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      },
+      {
+        "id": "55d4224b694005bb",
+        "type": "tabs",
+        "dimension": 38.35403726708074,
+        "children": [
+          {
+            "id": "6aad5c268e4d4c80",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Home.md",
+                "mode": "source",
+                "source": false
+              },
+              "pinned": true
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 298
+  },
+  "right": {
+    "id": "62242e5441a59511",
+    "type": "split",
+    "children": [
+      {
+        "id": "1e036ac6dd707c98",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "8a8a6837d1ec4cf5",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "006 Action/1 Tasks/_Views/Upcoming.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "bcfac068d7e134a1",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "006 Action/1 Tasks/_Views/Upcoming.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "b75bae6e7994c411",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "5ca1f637702e31dc",
+  "lastOpenFiles": [
+    "006 Action/1 Tasks/_Views/Today.md",
+    "006 Action/1 Tasks/_Views/Recurring.md",
+    "006 Action/1 Tasks/_Views/To Tag.md",
+    "006 Action/1 Tasks/_Views/Tomorrow.md",
+    "006 Action/1 Tasks/_Views/Important This Week.md",
+    "006 Action/1 Tasks/_Views/Important This Month.md",
+    "006 Action/1 Tasks/_Views/Important No Date.md",
+    "006 Action/1 Tasks/_Views/No Date.md",
+    "006 Action/1 Tasks/_Views/Completed.md",
+    "006 Action/1 Tasks/_Views/Someday.md"
+  ]
+}
